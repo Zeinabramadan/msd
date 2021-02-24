@@ -1,0 +1,51 @@
+a {
+	color: $brand;
+	text-decoration: none;
+}
+
+.input-text {
+	color: $light;
+	background-color: $input-bg;
+	border: 1px solid $input-bg;
+	border-radius: 30px;
+	font-size: 1rem;
+	line-height: 1.2;
+	padding: .25em .5em;
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.button {
+	background: transparent;
+	padding: .5em 1rem;
+	border: 1px solid $input-bg;
+	color: $light;
+	font-weight: 500;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px 0;
+	&--default {
+		background-color: $input-bg;
+	}
+}
+
+.error {
+	background-color: $gray;
+	color: $danger;
+	padding: 1em 2em;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.flaticon-heart-1,
+.flaticon-heart {
+	color: $danger;
+}
+
+.add-form {
+	width: 100%;
+	.input-text {
+		border-radius: 0;
+	}
+}

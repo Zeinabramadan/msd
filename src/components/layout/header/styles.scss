@@ -1,0 +1,44 @@
+@import '../../../styles/variables';
+
+header {
+	background-color: $gray;
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	.logo {
+		font-weight: bold;
+		@media #{$md} {
+			font-size: 2rem;
+		}
+	}
+	.search {
+		width: 70%;
+		@media #{$md} {
+			width: 50%;
+		}
+	}
+}
+
+.nav {
+	&__item {
+		font-size: 12px;
+		span {
+			display: none;
+			@media #{$md} {
+				display: inline-block;
+			}
+		}
+		i {
+			background: $danger;
+			padding: .5em;
+			border-radius: 50%;
+			height: 30px;
+			width: 30px;
+			display: inline-block;
+			text-align: center;
+			font-size: 14px;
+			margin-right: 5px;
+		}
+	}
+}

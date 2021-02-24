@@ -1,0 +1,14 @@
+.search {
+	width: 100%;
+	form {
+		position: relative;
+	}
+	&-icon {
+		background: transparent;
+    border: 0;
+    color: #f1f1f1;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+	}
+}
